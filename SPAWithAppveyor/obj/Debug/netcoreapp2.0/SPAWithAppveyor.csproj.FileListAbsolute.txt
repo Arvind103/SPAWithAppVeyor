@@ -1,0 +1,10 @@
+E:\Work\SPAWithAppveyor\SPAWithAppveyor\obj\Debug\netcoreapp2.0\SPAWithAppveyor.csproj.CoreCompileInputs.cache
+E:\Work\SPAWithAppveyor\SPAWithAppveyor\obj\Debug\netcoreapp2.0\SPAWithAppveyor.AssemblyInfoInputs.cache
+E:\Work\SPAWithAppveyor\SPAWithAppveyor\obj\Debug\netcoreapp2.0\SPAWithAppveyor.AssemblyInfo.cs
+E:\Work\SPAWithAppveyor\SPAWithAppveyor\bin\Debug\netcoreapp2.0\SPAWithAppveyor.deps.json
+E:\Work\SPAWithAppveyor\SPAWithAppveyor\bin\Debug\netcoreapp2.0\SPAWithAppveyor.runtimeconfig.json
+E:\Work\SPAWithAppveyor\SPAWithAppveyor\bin\Debug\netcoreapp2.0\SPAWithAppveyor.runtimeconfig.dev.json
+E:\Work\SPAWithAppveyor\SPAWithAppveyor\bin\Debug\netcoreapp2.0\SPAWithAppveyor.dll
+E:\Work\SPAWithAppveyor\SPAWithAppveyor\bin\Debug\netcoreapp2.0\SPAWithAppveyor.pdb
+E:\Work\SPAWithAppveyor\SPAWithAppveyor\obj\Debug\netcoreapp2.0\SPAWithAppveyor.dll
+E:\Work\SPAWithAppveyor\SPAWithAppveyor\obj\Debug\netcoreapp2.0\SPAWithAppveyor.pdb
