@@ -4,7 +4,6 @@ branches:
   only:
   - master
 init:
-  - cmd: nuget restore
   # Good practise, because Windows line endings are different from Unix/Linux ones
   - cmd: git config --global core.autocrlf true
 install:
