@@ -8,3 +8,4 @@ E:\Work\SPAWithAppveyor\SPAWithAppveyor\bin\Debug\netcoreapp2.0\SPAWithAppveyor.
 E:\Work\SPAWithAppveyor\SPAWithAppveyor\bin\Debug\netcoreapp2.0\SPAWithAppveyor.pdb
 E:\Work\SPAWithAppveyor\SPAWithAppveyor\obj\Debug\netcoreapp2.0\SPAWithAppveyor.dll
 E:\Work\SPAWithAppveyor\SPAWithAppveyor\obj\Debug\netcoreapp2.0\SPAWithAppveyor.pdb
+E:\Work\SPAWithAppVeyor\SPAWithAppveyor\obj\Debug\netcoreapp2.0\SPAWithAppveyor.csprojAssemblyReference.cache

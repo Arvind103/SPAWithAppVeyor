@@ -2735,6 +2735,9 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "NuGetEnablePackageRestore/2.0.0": {
+        "type": "package"
+      },
       "Remotion.Linq/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -7684,6 +7687,20 @@
         "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.1.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "NuGetEnablePackageRestore/2.0.0": {
+      "sha512": "iOl/E2e0xlENY06fv7fOq2PBGX9F0/cGf1Y++7T7iRTR3KAFr2vf/x29qTCEvLVaeF2ulnb+aoCzTTq63nd+8Q==",
+      "type": "package",
+      "path": "nugetenablepackagerestore/2.0.0",
+      "files": [
+        "nugetenablepackagerestore.2.0.0.nupkg.sha512",
+        "nugetenablepackagerestore.nuspec",
+        "tools/enablepackagerestore.psm1",
+        "tools/init.ps1",
+        "tools/nuget/NuGet.Config",
+        "tools/nuget/NuGet.exe",
+        "tools/nuget/NuGet.targets"
       ]
     },
     "Remotion.Linq/2.1.1": {
@@ -12658,7 +12675,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.8",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "NuGetEnablePackageRestore >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -12668,11 +12686,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Work\\SPAWithAppveyor\\SPAWithAppveyor\\SPAWithAppveyor.csproj",
+      "projectUniqueName": "E:\\Work\\SPAWithAppVeyor\\SPAWithAppveyor\\SPAWithAppveyor.csproj",
       "projectName": "SPAWithAppveyor",
-      "projectPath": "E:\\Work\\SPAWithAppveyor\\SPAWithAppveyor\\SPAWithAppveyor.csproj",
+      "projectPath": "E:\\Work\\SPAWithAppVeyor\\SPAWithAppveyor\\SPAWithAppveyor.csproj",
       "packagesPath": "C:\\Users\\Aravinda\\.nuget\\packages\\",
-      "outputPath": "E:\\Work\\SPAWithAppveyor\\SPAWithAppveyor\\obj\\",
+      "outputPath": "E:\\Work\\SPAWithAppVeyor\\SPAWithAppveyor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12711,6 +12729,10 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "NuGetEnablePackageRestore": {
+            "target": "Package",
+            "version": "[2.0.0, )"
           }
         },
         "imports": [
