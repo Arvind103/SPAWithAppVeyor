@@ -3,18 +3,34 @@ image: Visual Studio 2017
 branches:
   only:
   - master
-clone_depth: 1  
-nuget:  
-  disable_publish_on_pr: true
-build_script:  
-- ps: .\Build.ps1
-test: off
+init:
+  # Good practise, because Windows line endings are different from Unix/Linux ones
+  - cmd: git config --global core.autocrlf true
+install:
+  # Install repo specific stuff here
+before_build:
+  # Display .NET Core version
+  - cmd: dotnet --version
+  # Display minimal restore text
+  - cmd: dotnet restore ./src/src.csproj --verbosity m
+build_script:
+  # output will be in ./src/bin/debug/netcoreapp1.1/publish
+  - cmd: dotnet publish ./src/src.csproj
+after_build:
+  # For once the build has completed
 artifacts:
 - path: .\artifacts\**\*.nupkg
   name: NuGet
-deploy:  
-- provider: NuGet
-  name: production
-  on:
-    branch: master
-    appveyor_repo_tag: true
+ - path: '\src\bin\Debug\netcoreapp1.1\publish'
+   name: WebSite
+   type: WebDeployPackage
+clone_depth: 1
+test_script:
+  # restore packages for our unit tests
+  - cmd: dotnet restore ./tests/tests.csproj --verbosity m
+  # run the unit tests (requires changing into the test directory)
+  - cmd: cd tests
+  - cmd: dotnet xunit
+on_finish :
+  # any cleanup in here
+deploy: off
